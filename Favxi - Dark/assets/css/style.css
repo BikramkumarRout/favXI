@@ -1,0 +1,122 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+	background-color:#FFF;
+    color: #000!important;
+    font-size: 14px!important;
+    /* overflow-x: hidden; */
+    overflow-y: scroll;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+.txt_clr{
+    color: #969696!important;
+    font-weight: 600!important;
+}
+.bg_d_grey{
+    background-color: #182152!important;
+}
+.bg_l_grey{
+    background-color: #242A55!important;
+}
+/***** 01 SPLASH *****/
+/* First Row */
+.fir_row_1{
+    align-items: center;
+}
+
+/***** 02 HOME *****/
+/* First Row */
+.fir_row_2 .nav-tabs{
+    background-color: #06082A!important;
+    border-radius: 25px 25px 0 0;
+    border-bottom: none;
+}
+/* .fir_row_19 .col-12{
+    height: fit-content;
+} */
+.fir_row_2 .nav-tabs .nav-item.show .nav-link, .fir_row_2 .nav-tabs .nav-link{
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
+.fir_row_2 .nav-tabs .nav-item.show .nav-link, .fir_row_2 .nav-tabs .nav-link.active{
+    color: #FF4893;
+    border-bottom: 3px solid #FF4893!important;
+}
+
+/* Second Row */
+.sec_row_2{
+    border-radius: 25px 25px 0 0;
+    margin-top: -29px;
+}
+
+.sec_row_2 .tab-content .nav-tabs{
+    background-color: #06082A!important;
+    border-radius: 20px;
+    border-bottom: none;
+}
+.sec_row_2 .nav-tabs .nav-item.show .nav-link, .sec_row_2 .nav-tabs .nav-link{
+    color: #fff;
+    background-color: transparent;
+    border: none!important;
+}
+.sec_row_2 .nav-tabs .nav-item.show .nav-link, .sec_row_2 .nav-tabs .nav-link.active{
+    color: #0394FC!important;
+    border-bottom: 3px solid #0394FC!important;
+    background-color: transparent;
+}
+.sec_row_2 .tab-content .card{
+    background-color: #303A6D;
+    border-radius: 25px;
+}
+.sec_row_2 .tab-content .card .vs_circle{
+    align-self: center;
+    background-color: transparent;
+    padding: 5px;
+    border: 2px solid #7D91BC;
+    border-radius: 50%;
+}
+.sec_row_2 .tab-content .card .vs_circle .vs_circle_1{
+    color: #7D91BC;
+    font-weight: 900;
+    margin-right: -3px;
+}
+.sec_row_2 .tab-content .card .vs_circle .vs_circle_2{
+    color: #FF4893;
+    font-weight: 900;
+    margin-left: -3px;
+}
+.sec_row_2 .tab-content .card .card_timebox{
+    background-color: #FF4893;
+    border-radius: 40px 40px 0 0;
+}
+
+/***** 03 CONTEST *****/
+/* First Row */
+.first_row_3 .navbar_row .timebox{
+    background-color: #FF4893!important;
+    border-radius: 5px;
+}
+
+
+
+/* Footer */
+footer .navbar{
+    background-color: #06082A!important;
+    border-radius: 20px 20px 0px 0px;
+}
+footer .navbar .nav-link{
+    color: #8993A8;
+}
+footer .navbar .nav-item.active .nav-link{
+    color: #FF4893;
+    border-top: 3px solid #FF4893!important;
+}
+
+/* .cricket_icon :before{
+    color: #FF4893!important;
+    background-color: #FF4893;
+}
+.cricket_icon{
+    color: #FF4893;
+} */
